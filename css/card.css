@@ -65,6 +65,13 @@ input {
     border: none;
     text-align: center;
     padding: 11px;
+    transition: all 0.1s;
+    position: relative;
+    overflow: hidden;
+}
+
+.enter-button:active {
+    box-shadow: 2px 2px 2px #55e9d2, -2px -2px 2px #55e9d2;
 }
 
 .new-forget {
